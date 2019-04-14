@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1{
+    font-family: starling, serif;
+    font-weight: 800;
+    font-size: 69px;
+    color: #34303D;
+}
+
+h2{
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 25px;
+    color: #7B7881;
+}
+
+h3{
+    font-family: starling, serif;
+    font-weight: 800;
+    font-size: 34px;
+    color: #34303D;
+}
+
+h4{
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 20px;
+    color: #7B7881;
+}
+
+h5{
+    font-family: starling, serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #34303D;
+}
+
+p {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 18px;
+    color: #7B7881;
+}
+
+a{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 18px;
+    color: #FA7268;
+    letter-spacing: 2;
+}
+
+.linkNav{
+    color: #34303D;
+    margin-left: 30px;
+    letter-spacing: 0;
+}
+
+.linkHeading{
+    font-size: 25px;
+    letter-spacing: 4;
+}
+
+.wrapper {
+    max-width: 1300px;
+    padding: 0px 50px 0px 50px;
+    margin: auto;
+}
+
+header {
+    background-color: yellow;
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+}
+
+.logoHeader {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.sctHero {
+    height: 90vh;
+}
+
+.heroLeft{
+    float: left;
+    background-color: bisque;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroRight{
+    float: left;
+    background-color: burlywood;
+    width: 50%;
+    height: 100%;
+}
