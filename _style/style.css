@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('fonts/SuisseWorks-Bold.woff') format('woff'),
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -5,49 +10,54 @@
 }
 
 h1{
-    font-family: starling, serif;
+    font-family: 'Suisse Works';
     font-weight: 800;
     font-size: 69px;
     color: #34303D;
 }
 
 h2{
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Text';
     font-weight: 600;
     font-size: 25px;
     color: #7B7881;
 }
 
 h3{
-    font-family: starling, serif;
+    font-family: 'Suisse Works';
     font-weight: 800;
     font-size: 34px;
     color: #34303D;
+    margin-bottom: 20px;
 }
 
 h4{
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Text';
     font-weight: 600;
     font-size: 20px;
     color: #7B7881;
 }
 
 h5{
-    font-family: starling, serif;
+    font-family: 'Suisse Works';
     font-weight: 800;
     font-size: 20px;
     color: #34303D;
 }
 
 p {
-    font-family: 'SF Pro Display';
-    font-weight: 400;
+    font-family: 'SF Pro Text';
+    font-weight: 500;
     font-size: 18px;
     color: #7B7881;
 }
 
+.ctnText{ 
+    max-width: 520px;
+}
+
 a{
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Text';
     font-weight: 700;
     font-size: 18px;
     color: #FA7268;
@@ -64,7 +74,6 @@ a{
     font-size: 25px;
     letter-spacing: 4;
 }
-
 .wrapper {
     max-width: 1300px;
     padding: 0px 50px 0px 50px;
@@ -72,7 +81,6 @@ a{
 }
 
 header {
-    background-color: yellow;
     width: 100%;
     padding: 50px 0px 0px 0px;
 }
@@ -85,23 +93,208 @@ nav {
     float: right;
 }
 
+footer {
+   background-color: #34303D;
+   width: 100%;
+   height: 410px;
+   margin-top: 400px; 
+}
+
+section {
+    width: 100%;
+}
+
 .sctHero {
     height: 90vh;
 }
 
 .heroLeft{
     float: left;
-    background-color: bisque;
-    width: 50%;
+    width: 55%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.heroLeft h1{
+    margin-bottom: 30px;
+}
+
+.heroLeft h2{
+    margin-bottom: 30px;
+}
+
 .heroRight{
     float: left;
-    background-color: burlywood;
-    width: 50%;
+    width: 45%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.ctnImgHero{
+    width: 100%;
+}
+
+.imgHero{
+    float: right;
+    width: 450px;
+}
+
+.sct01{
+    margin-bottom: 220px;
+}
+
+.ctnCollums {
+    width: 100%;
+    height: 364px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.elmCollum {
+    width: 180px;
+    height: 264px;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 2px;
+    padding: 50px 50px 50px 50px;
+}
+
+.imgCollum{
+    margin-bottom: 30px;
+}
+
+.elmCollum h5{
+    margin-bottom: 10px;
+}
+
+.sct02 {
+    margin-bottom: 220px;
+}
+
+.ctnFlex{
+    margin-top: 40px;
+    width: 100%;
+    column-count: 2;
+}
+
+.ctnFlex p{
+    color: #34303D;
+    font-weight: 500;
+    letter-spacing: 0.3;
+    margin-bottom: 40px;
+}  
+
+.leftFlexText{
+    max-width: 500px;
+}
+
+.rightFlexText{
+    max-width: 500px;
+}
+
+.elmAuthorFlex {
+    margin-top: 60px;
+    width: 300px;
+    height: 80px;
+}
+
+.elmAuthorFlex img {  
+    float: left;
+    margin-right: 20px;
+}
+
+.elmAuthorFlex img {  
+    float: left;
+    margin-right: 20px;
+}
+
+.elmAuthorFlex h4 {  
+    padding: 15px 0px 5px 0px;
+}
+
+.sct03 {
+    margin-bottom: 220px;
+}
+
+.ctnFaq {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.elmFaq{
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    border-color: #e9e9e9;
+}
+
+.elmFaqWrapper {
+    width: 100%;
+    height: 20px;
+}
+
+.elmFaqWrapper h5{
+    float: left;
+}
+
+.elmFaqWrapper img{
+    float: right;
+}
+
+.anwserFaq {
+    padding: 20px;
+}
+
+
+.sct04 {
+    margin-bottom: 140px;
+}
+
+.ctnArticles {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elmArticle{
+    width: 30%;
+}
+
+.elmArticle h5{
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+.elmArticle p{
+    margin-bottom: 16px;
+}
+
+.sct05{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sct05 img{
+    margin-bottom: 80px;
+}
+
+.sct05 h4{
+    text-align: center;
+    width: 410px;
+    margin-bottom: 20px;
+}
+
+.footerWrapper {
+    
+}
+
