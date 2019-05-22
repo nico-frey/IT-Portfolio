@@ -1,3 +1,5 @@
+/*Serif Font import */
+
 @font-face {
     font-family: 'Suisse Works';
     src: url('fonts/SuisseWorks-Bold.woff') format('woff'),
@@ -7,7 +9,10 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
+
+/*Universal Font formats*/
 
 h1{
     font-family: 'Suisse Works';
@@ -74,6 +79,9 @@ a{
     font-size: 25px;
     letter-spacing: 4;
 }
+
+/*General CSS definitons & unified header*/
+
 .wrapper {
     max-width: 1300px;
     padding: 0px 50px 0px 50px;
@@ -103,6 +111,51 @@ footer {
 section {
     width: 100%;
 }
+
+/* Unified footer*/
+
+footer{
+    padding: 60px 0px 0px 0px;
+}
+
+.footerWrapper {
+    max-width: 1300px;
+    padding: 100px 50px 0px 50px;
+    margin: auto;
+}
+
+.footerWrapper p {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.footerWrapper a {
+    font-weight: 500;
+    color: #c1c1c1;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.footerWrapper li {
+    margin-bottom: 10px;
+}
+
+.footerWrapper img {
+    margin-bottom: 25px;
+}
+
+.footerColLinks {
+    margin-left: 150px;
+    float: right;
+}
+
+.footerColBrand {
+    float: left;
+    width: 200px;
+}
+
+/*CSS for every section in chronological order in "index.html"*/
 
 .sctHero {
     height: 90vh;
@@ -294,7 +347,10 @@ section {
     margin-bottom: 20px;
 }
 
-.footerWrapper {
-    
-}
+/*CSS for every section in chronological order in "news.html"*/
 
+/*CSS for every section in chronological order in "contact.html"*/
+
+/*CSS for every section in chronological order in "faq.html"*/
+
+/*CSS for every section in chronological order in "404.html"*/
