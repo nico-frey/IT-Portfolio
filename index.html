@@ -1,20 +1,35 @@
 <html>
 <head>
     <meta charset="utf-8"/>
+
+    <!--Typekit & Iconfont-->
     <link rel="stylesheet" href="https://use.typekit.net/lfo7hrw.css">
     <link rel="stylesheet" href="_style/elusive-icons-2.0.0/css/elusive-icons.min.css">
- 
+
+    <!--Personal CSS Framework-->
     <link rel="stylesheet" type="text/css" href="_style/style.css">
+ 
+    <!--JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--Various librarys CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--Relative JS files-->
+    <script src="_scripts/SmoothScrool.js"></script>
+
+
+
 </head>
 <body>
     <main class="wrapper">
 
-        <div class="gridWrapper">
-            <div class="heroWrapper">
+        <div class="gridWrapper"  >
+            <div class="heroWrapper" id="cta2">
                 <header>
                     <a id="logoHeader" href="#"><img src="_assets/logo.svg"></a>
                     <nav>
-                        <a class="linkNav" href="#">HOME</a>
+                        <a class="linkNav" href="index.html">HOME</a>
                         <a class="linkNav" href="#">NEWS</a>
                         <a class="linkNav" href="#">CONTACT</a>
                         <a class="linkNav" href="#">FAQ</a>
@@ -23,9 +38,9 @@
                 <section class="sctHero">
                     <div class="heroLeft">
                         <div>
-                            <h1>Dear Parents, Gaming is actually good for your kids.</h1>
-                            <h2>Lots of kids love video games. In fact, they like them so much that they might hear something like this from mom or dad: "Enough! Unplug that thing and find something else to do!"</h2>
-                            <a class="linkHeading" href="#"><i class="el el-caret-right" style="font-size: 18px; margin-right: 6px;"></i>LEARN MORE</a>
+                            <h1 class="SRheroMainHeading">Dear Parents, Gaming is actually good for your kids.</h1>
+                            <h2 class="SRheroSecHeading"> Lots of kids love video games. In fact, they like them so much that they might hear something like this from mom or dad: "Enough! Unplug that thing and find something else to do!"</h2>
+                            <a class="linkHeading" id="herolink" href="#cta1"><i class="el el-caret-right" style="font-size: 18px; margin-right: 6px;"></i>LEARN MORE</a>
                         </div> 
                     </div>
                     <div class="heroRight">
@@ -36,7 +51,7 @@
                 </section>
             </div>
             
-            <section class="sct01">
+            <section class="sct01" id="cta1">
                 <h3>The typical impatcs of gaming</h3>
                 <div class="ctnText">
                     <h4>Argument one: gaming isn't good for your eyes or even your health in general. Is that true? we uncover the secret.</h4>
@@ -171,7 +186,7 @@
         <div class="footerWrapper">
             <div class="footerColBrand">
                 <ul>
-                    <li><a><img src="_assets/logo.svg"></a></li>
+                    <li><a href="#cta2"><img src="_assets/logo.svg"></a></li>
                     <li><a>© 2019 CRACKHOE</a></li>
                     <li><a>Design by Nico Frey</a></li>
                 </ul>                
@@ -179,28 +194,32 @@
             <div class="footerColLinks">
                 <ul>
                     <li><p>SITEMAP</p></li>
-                    <li><a>Home</a></li>
-                    <li><a>News</a></li>
-                    <li><a>Faq</a></li>
+                    <li><a href="sites/404.html">Home</a></li>
+                    <li><a href="sites/404.html"> News</a></li>
+                    <li><a href="sites/404.html">Faq</a></li>
                 </ul>   
             </div>
             <div class="footerColLinks">
                 <ul>
                     <li><p>COMMUNITY</p></li>
-                    <li><a>Instagram</a></li>
-                    <li><a>Facebook</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="sites/404.html">Instagram</a></li>
+                    <li><a href="sites/404.html">Facebook</a></li>
+                    <li><a href="sites/404.html">Contact</a></li>
                 </ul>
             </div>
             <div class="footerColLinks">
                 <ul>
                     <li><p>LEGAL</p></li>
-                    <li><a>Terms</a></li>
-                    <li><a>License</a></li>
+                    <li><a href="sites/404.html"> Terms</a></li>
+                    <li><a href="sites/404.html">License</a></li>
                 </ul>
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="_scripts/ScrollReveal.js"></script>
+
 </body>
 
 </html>
