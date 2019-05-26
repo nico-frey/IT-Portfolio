@@ -50,6 +50,13 @@ h5{
     color: #34303D;
 }
 
+h6{
+    font-family: 'Suisse Works';
+    font-weight: 800;
+    font-size: 46px;
+    color: #ffffff;
+}
+
 p {
     font-family: 'SF Pro Text';
     font-weight: 500;
@@ -309,6 +316,14 @@ footer{
     padding: 20px;
 }
 
+.elmFaqWrapperImg{
+    background-image: url('../_assets/plus.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    float: right;
+}
 
 .sct04 {
     margin-bottom: 140px;
@@ -354,8 +369,129 @@ footer{
 
 /*CSS for every section in chronological order in "news.html"*/
 
+.News_sctHero{
+    padding-top: 150px;
+}
+
+.News_sctContent{
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.News_sctContent h6{
+    padding-bottom: 50px;
+}
+
+.News_sctContent a{
+    color: #ffffff;
+    opacity: 0.75;
+}
+
+.News_sctContent p{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.News_sctContentArea{
+    float: left;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.News_sctContentAreaImg{
+    height: 240px;
+    padding: 50px;
+}
+
+.News_sctContentAreaImg1{
+    background-image: url('../_assets/news_controller.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.News_sctContentAreaImg2{
+    background-image: url('../_assets/news_esports.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.News_sctContentAreaImg3{
+    background-image: url('../_assets/news_brain.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.News_sctContentAreaDesc{
+    width: 600px;
+    height: 70px;
+}
+
 /*CSS for every section in chronological order in "contact.html"*/
+
+.Contact_sctHero {
+    padding-top: 150px;
+}
+
+.Contact_sctHero h1 {
+    margin-bottom: 50px;
+}
+
+.Contact_sctHero h2 {
+    margin: 30px 0px 30px 0px
+}
+
+.ContactTeamSlider{
+    margin-top: 100px;
+}
+
+.team-slider {
+    height: 400px;
+}
+
+.team-slider img{
+    height: 310px;
+}
+
+.footerContact{
+    margin-top: 100px;
+}
 
 /*CSS for every section in chronological order in "faq.html"*/
 
+.Faq_sct h1 {
+    margin-bottom: 80px;
+}
+
+.Faq_sct{
+    padding-top: 150px;
+}
+
 /*CSS for every section in chronological order in "404.html"*/
+
+.errorMain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.errorMain h1{
+    font-size: 200px; 
+}
+
+.errorMain a{
+    margin-top: 30px; 
+}
+
