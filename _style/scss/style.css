@@ -96,80 +96,27 @@ a {
   max-width: 1300px;
   padding: 0px 50px 0px 50px;
   margin: auto;
+  /*CSS for every section in chronological order in "index.html"*/
 }
 
-header {
+.wrapper header {
   width: 100%;
   padding: 50px 0px 0px 0px;
 }
 
-.logoHeader {
+.wrapper .logoHeader {
   float: left;
 }
 
-nav {
+.wrapper nav {
   float: right;
 }
 
-footer {
-  background-color: #34303D;
-  width: 100%;
-  height: 410px;
-  margin-top: 400px;
-}
-
-section {
-  width: 100%;
-}
-
-/* Unified footer*/
-footer {
-  padding: 60px 0px 0px 0px;
-}
-
-.footerWrapper {
-  max-width: 1300px;
-  padding: 100px 50px 0px 50px;
-  margin: auto;
-}
-
-.footerWrapper p {
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 18px;
-}
-
-.footerWrapper a {
-  font-weight: 500;
-  color: #c1c1c1;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.footerWrapper li {
-  margin-bottom: 10px;
-}
-
-.footerWrapper img {
-  margin-bottom: 25px;
-}
-
-.footerColLinks {
-  margin-left: 150px;
-  float: right;
-}
-
-.footerColBrand {
-  float: left;
-  width: 200px;
-}
-
-/*CSS for every section in chronological order in "index.html"*/
-.sctHero {
+.wrapper .sctHero {
   height: 90vh;
 }
 
-.heroLeft {
+.wrapper .heroLeft {
   float: left;
   width: 55%;
   height: 100%;
@@ -184,15 +131,15 @@ footer {
           align-items: center;
 }
 
-.heroLeft h1 {
+.wrapper .heroLeft h1 {
   margin-bottom: 30px;
 }
 
-.heroLeft h2 {
+.wrapper .heroLeft h2 {
   margin-bottom: 30px;
 }
 
-.heroRight {
+.wrapper .heroRight {
   float: left;
   width: 45%;
   height: 100%;
@@ -207,20 +154,20 @@ footer {
           align-items: center;
 }
 
-.ctnImgHero {
+.wrapper .ctnImgHero {
   width: 100%;
 }
 
-.imgHero {
+.wrapper .imgHero {
   float: right;
   width: 450px;
 }
 
-.sct01 {
+.wrapper .sct01 {
   margin-bottom: 220px;
 }
 
-.ctnCollums {
+.wrapper .ctnCollums {
   width: 100%;
   height: 364px;
   display: -webkit-box;
@@ -234,7 +181,7 @@ footer {
   margin-top: 40px;
 }
 
-.elmCollum {
+.wrapper .elmCollum {
   width: 180px;
   height: 264px;
   background-color: #F2F2F2;
@@ -243,94 +190,94 @@ footer {
   padding: 50px 50px 50px 50px;
 }
 
-.imgCollum {
+.wrapper .imgCollum {
   margin-bottom: 30px;
 }
 
-.elmCollum h5 {
+.wrapper .elmCollum h5 {
   margin-bottom: 10px;
 }
 
-.sct02 {
+.wrapper .sct02 {
   margin-bottom: 220px;
 }
 
-.ctnFlex {
+.wrapper .ctnFlex {
   margin-top: 40px;
   width: 100%;
   -webkit-column-count: 2;
           column-count: 2;
 }
 
-.ctnFlex p {
+.wrapper .ctnFlex p {
   color: #34303D;
   font-weight: 500;
   letter-spacing: 0.3;
   margin-bottom: 40px;
 }
 
-.leftFlexText {
+.wrapper .leftFlexText {
   max-width: 500px;
 }
 
-.rightFlexText {
+.wrapper .rightFlexText {
   max-width: 500px;
 }
 
-.elmAuthorFlex {
+.wrapper .elmAuthorFlex {
   margin-top: 60px;
   width: 300px;
   height: 80px;
 }
 
-.elmAuthorFlex img {
+.wrapper .elmAuthorFlex img {
   float: left;
   margin-right: 20px;
 }
 
-.elmAuthorFlex img {
+.wrapper .elmAuthorFlex img {
   float: left;
   margin-right: 20px;
 }
 
-.elmAuthorFlex h4 {
+.wrapper .elmAuthorFlex h4 {
   padding: 15px 0px 5px 0px;
 }
 
-.sct03 {
+.wrapper .sct03 {
   margin-bottom: 220px;
 }
 
-.ctnFaq {
+.wrapper .ctnFaq {
   width: 100%;
   margin-top: 40px;
 }
 
-.elmFaq {
+.wrapper .elmFaq {
   padding: 20px;
   border-style: solid;
   border-width: 2px 0px 2px 0px;
   border-color: #e9e9e9;
 }
 
-.elmFaqWrapper {
+.wrapper .elmFaqWrapper {
   width: 100%;
   height: 20px;
 }
 
-.elmFaqWrapper h5 {
+.wrapper .elmFaqWrapper h5 {
   float: left;
 }
 
-.elmFaqWrapper img {
+.wrapper .elmFaqWrapper img {
   float: right;
 }
 
-.anwserFaq {
+.wrapper .anwserFaq {
   padding: 20px;
 }
 
-.elmFaqWrapperImg {
+.wrapper .elmFaqWrapperImg {
   background-image: url("../_assets/plus.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -339,11 +286,11 @@ footer {
   float: right;
 }
 
-.sct04 {
+.wrapper .sct04 {
   margin-bottom: 140px;
 }
 
-.ctnArticles {
+.wrapper .ctnArticles {
   margin-top: 40px;
   width: 100%;
   display: -webkit-box;
@@ -354,26 +301,25 @@ footer {
           justify-content: space-between;
 }
 
-.elmArticle {
+.wrapper .elmArticle {
   width: 30%;
 }
 
-.elmArticle h5 {
+.wrapper .elmArticle h5 {
   margin-top: 25px;
   margin-bottom: 13px;
 }
 
-.elmArticle p {
+.wrapper .elmArticle p {
   margin-bottom: 16px;
 }
 
-.sct05 {
+.wrapper .sct05 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 300px;
-  margin-bottom: 100px;
+  height: 800px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -383,11 +329,11 @@ footer {
           align-items: center;
 }
 
-.sct05 img {
+.wrapper .sct05 img {
   margin-bottom: 80px;
 }
 
-.sct05 h4 {
+.wrapper .sct05 h4 {
   text-align: center;
   width: 410px;
   margin-bottom: 20px;
@@ -531,8 +477,35 @@ footer {
   margin-top: 30px;
 }
 
-/*Contact Form (update v2)*/
+footer {
+  background-color: #34303D;
+  width: 100%;
+  height: 410px;
+  margin-top: 400px;
+}
 
+section {
+  width: 100%;
+}
+
+/* Unified footer*/
+footer {
+  padding: 60px 0px 0px 0px;
+}
+
+.footerWrapper {
+  max-width: 1300px;
+  padding: 100px 50px 0px 50px;
+  margin: auto;
+}
+
+.footerWrapper p {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+/* Form */
 .ctnContactForm {
   height: 500px;
   width: 500px;
@@ -550,7 +523,7 @@ input {
   font-size: 16px;
 }
 
-select{
+select {
   width: 48%;
   height: 50px;
   padding: 16px 20px;
@@ -566,7 +539,33 @@ select{
 .submit {
   width: 48%;
   background-color: #FA7268;
-  color: #ffffff; 
+  color: #ffffff;
   cursor: pointer;
-  padding: 50px;
 }
+
+/* Footer */
+.footerWrapper a {
+  font-weight: 500;
+  color: #c1c1c1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.footerWrapper li {
+  margin-bottom: 10px;
+}
+
+.footerWrapper img {
+  margin-bottom: 25px;
+}
+
+.footerColLinks {
+  margin-left: 150px;
+  float: right;
+}
+
+.footerColBrand {
+  float: left;
+  width: 200px;
+}
+/*# sourceMappingURL=style.css.map */
