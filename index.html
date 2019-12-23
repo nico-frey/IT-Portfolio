@@ -26,7 +26,7 @@
         <div class="gridWrapper">
             <div class="heroWrapper" id="cta2">
                 <header>
-                    <a id="logoHeader" href="index.html"><img src="_assets/logo.png" style="width: 250px;"></a>
+                    <a id="logoHeader" href="index.html"><img src="_assets/logo.svg" style="width: 30px;"></a>
                     <nav>
                         <a class="linkNav" href="index.html">HOME</a>
                         <a class="linkNav" href="sites/news.html">NEWS</a>
@@ -174,7 +174,21 @@
                     <img src="_assets/divider.svg">
                     <h3>Subscribe to our newsletter!</h3>
                     <h4>Enter your E-Mail for weekly updates about gaming around the world from our specialists and bloggers.</h4>
-                    <a class="linkSubscribe" href="sites/404.html"><i class="el el-caret-right" style="font-size: 10px; margin-right: 6px;"></i>CREATE ACCOUNT</a>
+                    <div class="ctnContactForm">
+                        <form action="#">
+                          <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+                          <input type="text" id="mail" name="mail" placeholder="Your e-mail">
+                          <input type="text" id="nr" name="nr" placeholder="Your mobile">
+                        <input type="password" id="pass" name="password" placeholder="Your Password" minlength="8" required>
+                          <select id="language" name="language">
+                            <option value="australia">English</option>
+                            <option value="canada">German</option>
+                            <option value="usa">Chinese</option>
+                            <option value="usa">Albanian</option>
+                          </select>
+                          <input class="submit" type="submit" value="Submit" onclick="alert('You have been registered succesfully')">
+                        </form>
+                      </div>
                 </section>
         </div>  
     </main>
