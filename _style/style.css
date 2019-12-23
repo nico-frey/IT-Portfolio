@@ -1,497 +1,532 @@
 /*Serif Font import */
-
 @font-face {
-    font-family: 'Suisse Works';
-    src: url('fonts/SuisseWorks-Bold.woff') format('woff'),
-  }
+  font-family: 'Suisse Works';
+  src: url("fonts/SuisseWorks-Bold.woff") format("woff");
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 /*Universal Font formats*/
-
-h1{
-    font-family: 'Suisse Works';
-    font-weight: 800;
-    font-size: 69px;
-    color: #34303D;
+h1 {
+  font-family: 'Suisse Works';
+  font-weight: 800;
+  font-size: 69px;
+  color: #34303D;
 }
 
-h2{
-    font-family: 'SF Pro Text';
-    font-weight: 600;
-    font-size: 25px;
-    color: #7B7881;
+h2 {
+  font-family: 'SF Pro Text';
+  font-weight: 600;
+  font-size: 25px;
+  color: #7B7881;
 }
 
-h3{
-    font-family: 'Suisse Works';
-    font-weight: 800;
-    font-size: 34px;
-    color: #34303D;
-    margin-bottom: 20px;
+h3 {
+  font-family: 'Suisse Works';
+  font-weight: 800;
+  font-size: 34px;
+  color: #34303D;
+  margin-bottom: 20px;
 }
 
-h4{
-    font-family: 'SF Pro Text';
-    font-weight: 600;
-    font-size: 20px;
-    color: #7B7881;
+h4 {
+  font-family: 'SF Pro Text';
+  font-weight: 600;
+  font-size: 20px;
+  color: #7B7881;
 }
 
-h5{
-    font-family: 'Suisse Works';
-    font-weight: 800;
-    font-size: 20px;
-    color: #34303D;
+h5 {
+  font-family: 'Suisse Works';
+  font-weight: 800;
+  font-size: 20px;
+  color: #34303D;
 }
 
-h6{
-    font-family: 'Suisse Works';
-    font-weight: 800;
-    font-size: 46px;
-    color: #ffffff;
+h6 {
+  font-family: 'Suisse Works';
+  font-weight: 800;
+  font-size: 46px;
+  color: #ffffff;
 }
 
 p {
-    font-family: 'SF Pro Text';
-    font-weight: 500;
-    font-size: 18px;
-    color: #7B7881;
+  font-family: 'SF Pro Text';
+  font-weight: 500;
+  font-size: 18px;
+  color: #7B7881;
 }
 
-.ctnText{ 
-    max-width: 520px;
+.ctnText {
+  max-width: 520px;
 }
 
-a{
-    font-family: 'SF Pro Text';
-    font-weight: 700;
-    font-size: 18px;
-    color: #FA7268;
-    letter-spacing: 2;
-    transition-duration: 0.2s;
+a {
+  font-family: 'SF Pro Text';
+  font-weight: 700;
+  font-size: 18px;
+  color: #FA7268;
+  letter-spacing: 2;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
-.linkNav{
-    color: #34303D;
-    margin-left: 30px;
-    letter-spacing: 0;
+.linkNav {
+  color: #34303D;
+  margin-left: 30px;
+  letter-spacing: 0;
 }
 
-.linkNav:hover{
-    color: #FA7268;
+.linkNav:hover {
+  color: #FA7268;
 }
 
-.linkHeading{
-    font-size: 25px;
-    letter-spacing: 4;
+.linkHeading {
+  font-size: 25px;
+  letter-spacing: 4;
 }
 
 /*General CSS definitons & unified header*/
-
 .wrapper {
-    max-width: 1300px;
-    padding: 0px 50px 0px 50px;
-    margin: auto;
+  max-width: 1300px;
+  padding: 0px 50px 0px 50px;
+  margin: auto;
 }
 
 header {
-    width: 100%;
-    padding: 50px 0px 0px 0px;
+  width: 100%;
+  padding: 50px 0px 0px 0px;
 }
 
 .logoHeader {
-    float: left;
+  float: left;
 }
 
 nav {
-    float: right;
+  float: right;
 }
 
 footer {
-   background-color: #34303D;
-   width: 100%;
-   height: 410px;
-   margin-top: 400px; 
+  background-color: #34303D;
+  width: 100%;
+  height: 410px;
+  margin-top: 400px;
 }
 
 section {
-    width: 100%;
+  width: 100%;
 }
 
 /* Unified footer*/
-
-footer{
-    padding: 60px 0px 0px 0px;
+footer {
+  padding: 60px 0px 0px 0px;
 }
 
 .footerWrapper {
-    max-width: 1300px;
-    padding: 100px 50px 0px 50px;
-    margin: auto;
+  max-width: 1300px;
+  padding: 100px 50px 0px 50px;
+  margin: auto;
 }
 
 .footerWrapper p {
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 18px;
 }
 
 .footerWrapper a {
-    font-weight: 500;
-    color: #c1c1c1;
-    font-weight: 700;
-    letter-spacing: 0;
+  font-weight: 500;
+  color: #c1c1c1;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .footerWrapper li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footerWrapper img {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .footerColLinks {
-    margin-left: 150px;
-    float: right;
+  margin-left: 150px;
+  float: right;
 }
 
 .footerColBrand {
-    float: left;
-    width: 200px;
+  float: left;
+  width: 200px;
 }
 
 /*CSS for every section in chronological order in "index.html"*/
-
 .sctHero {
-    height: 90vh;
+  height: 90vh;
 }
 
-.heroLeft{
-    float: left;
-    width: 55%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.heroLeft {
+  float: left;
+  width: 55%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.heroLeft h1{
-    margin-bottom: 30px;
+.heroLeft h1 {
+  margin-bottom: 30px;
 }
 
-.heroLeft h2{
-    margin-bottom: 30px;
+.heroLeft h2 {
+  margin-bottom: 30px;
 }
 
-.heroRight{
-    float: left;
-    width: 45%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.heroRight {
+  float: left;
+  width: 45%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.ctnImgHero{
-    width: 100%;
+.ctnImgHero {
+  width: 100%;
 }
 
-.imgHero{
-    float: right;
-    width: 450px;
+.imgHero {
+  float: right;
+  width: 450px;
 }
 
-.sct01{
-    margin-bottom: 220px;
+.sct01 {
+  margin-bottom: 220px;
 }
 
 .ctnCollums {
-    width: 100%;
-    height: 364px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 40px;
+  width: 100%;
+  height: 364px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
 }
 
 .elmCollum {
-    width: 180px;
-    height: 264px;
-    background-color: #F2F2F2;
-    text-align: center;
-    border-radius: 2px;
-    padding: 50px 50px 50px 50px;
+  width: 180px;
+  height: 264px;
+  background-color: #F2F2F2;
+  text-align: center;
+  border-radius: 2px;
+  padding: 50px 50px 50px 50px;
 }
 
-.imgCollum{
-    margin-bottom: 30px;
+.imgCollum {
+  margin-bottom: 30px;
 }
 
-.elmCollum h5{
-    margin-bottom: 10px;
+.elmCollum h5 {
+  margin-bottom: 10px;
 }
 
 .sct02 {
-    margin-bottom: 220px;
+  margin-bottom: 220px;
 }
 
-.ctnFlex{
-    margin-top: 40px;
-    width: 100%;
-    column-count: 2;
+.ctnFlex {
+  margin-top: 40px;
+  width: 100%;
+  -webkit-column-count: 2;
+          column-count: 2;
 }
 
-.ctnFlex p{
-    color: #34303D;
-    font-weight: 500;
-    letter-spacing: 0.3;
-    margin-bottom: 40px;
-}  
-
-.leftFlexText{
-    max-width: 500px;
+.ctnFlex p {
+  color: #34303D;
+  font-weight: 500;
+  letter-spacing: 0.3;
+  margin-bottom: 40px;
 }
 
-.rightFlexText{
-    max-width: 500px;
+.leftFlexText {
+  max-width: 500px;
+}
+
+.rightFlexText {
+  max-width: 500px;
 }
 
 .elmAuthorFlex {
-    margin-top: 60px;
-    width: 300px;
-    height: 80px;
+  margin-top: 60px;
+  width: 300px;
+  height: 80px;
 }
 
-.elmAuthorFlex img {  
-    float: left;
-    margin-right: 20px;
+.elmAuthorFlex img {
+  float: left;
+  margin-right: 20px;
 }
 
-.elmAuthorFlex img {  
-    float: left;
-    margin-right: 20px;
+.elmAuthorFlex img {
+  float: left;
+  margin-right: 20px;
 }
 
-.elmAuthorFlex h4 {  
-    padding: 15px 0px 5px 0px;
+.elmAuthorFlex h4 {
+  padding: 15px 0px 5px 0px;
 }
 
 .sct03 {
-    margin-bottom: 220px;
+  margin-bottom: 220px;
 }
 
 .ctnFaq {
-    width: 100%;
-    margin-top: 40px;
+  width: 100%;
+  margin-top: 40px;
 }
 
-.elmFaq{
-    padding: 20px;
-    border-style: solid;
-    border-width: 2px 0px 2px 0px;
-    border-color: #e9e9e9;
+.elmFaq {
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px 0px 2px 0px;
+  border-color: #e9e9e9;
 }
 
 .elmFaqWrapper {
-    width: 100%;
-    height: 20px;
+  width: 100%;
+  height: 20px;
 }
 
-.elmFaqWrapper h5{
-    float: left;
+.elmFaqWrapper h5 {
+  float: left;
 }
 
-.elmFaqWrapper img{
-    float: right;
+.elmFaqWrapper img {
+  float: right;
 }
 
 .anwserFaq {
-    padding: 20px;
+  padding: 20px;
 }
 
-.elmFaqWrapperImg{
-    background-image: url('../_assets/plus.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-    float: right;
+.elmFaqWrapperImg {
+  background-image: url("../_assets/plus.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  float: right;
 }
 
 .sct04 {
-    margin-bottom: 140px;
+  margin-bottom: 140px;
 }
 
 .ctnArticles {
-    margin-top: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.elmArticle{
-    width: 30%;
+.elmArticle {
+  width: 30%;
 }
 
-.elmArticle h5{
-    margin-top: 25px;
-    margin-bottom: 13px;
+.elmArticle h5 {
+  margin-top: 25px;
+  margin-bottom: 13px;
 }
 
-.elmArticle p{
-    margin-bottom: 16px;
+.elmArticle p {
+  margin-bottom: 16px;
 }
 
-.sct05{
-    display: flex;
-    width: 100%;
-    height: 200px;
-    flex-direction: column;
-    align-items: center;
+.sct05 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.sct05 img{
-    margin-bottom: 80px;
+.sct05 img {
+  margin-bottom: 80px;
 }
 
-.sct05 h4{
-    text-align: center;
-    width: 410px;
-    margin-bottom: 20px;
+.sct05 h4 {
+  text-align: center;
+  width: 410px;
+  margin-bottom: 20px;
 }
 
 /*CSS for every section in chronological order in "news.html"*/
-
-.News_sctHero{
-    padding-top: 150px;
+.News_sctHero {
+  padding-top: 150px;
 }
 
-.News_sctContent{
-    margin-top: 50px;
-    width: 100%;
-    height: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.News_sctContent {
+  margin-top: 50px;
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.News_sctContent h6{
-    padding-bottom: 50px;
+.News_sctContent h6 {
+  padding-bottom: 50px;
 }
 
-.News_sctContent a{
-    color: #ffffff;
-    opacity: 0.75;
+.News_sctContent a {
+  color: #ffffff;
+  opacity: 0.75;
 }
 
-.News_sctContent p{
-    margin-top: 30px;
-    padding-bottom: 50px;
+.News_sctContent p {
+  margin-top: 30px;
+  padding-bottom: 50px;
 }
 
-.News_sctContentArea{
-    float: left;
-    width: 600px;
-    margin-bottom: 50px;
+.News_sctContentArea {
+  float: left;
+  width: 600px;
+  margin-bottom: 50px;
 }
 
-.News_sctContentAreaImg{
-    height: 240px;
-    padding: 50px;
+.News_sctContentAreaImg {
+  height: 240px;
+  padding: 50px;
 }
 
-.News_sctContentAreaImg1{
-    background-image: url('../_assets/news_controller.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
-    border-radius: 4px;
+.News_sctContentAreaImg1 {
+  background-image: url("../_assets/news_controller.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 4px;
 }
 
-.News_sctContentAreaImg2{
-    background-image: url('../_assets/news_esports.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
-    border-radius: 4px;
+.News_sctContentAreaImg2 {
+  background-image: url("../_assets/news_esports.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 4px;
 }
 
-.News_sctContentAreaImg3{
-    background-image: url('../_assets/news_brain.png');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    padding: 50px;
-    border-radius: 4px;
+.News_sctContentAreaImg3 {
+  background-image: url("../_assets/news_brain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 4px;
 }
 
-.News_sctContentAreaDesc{
-    width: 600px;
-    height: 70px;
+.News_sctContentAreaDesc {
+  width: 600px;
+  height: 70px;
 }
 
 /*CSS for every section in chronological order in "contact.html"*/
-
 .Contact_sctHero {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .Contact_sctHero h1 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .Contact_sctHero h2 {
-    margin: 30px 0px 30px 0px
+  margin: 30px 0px 30px 0px;
 }
 
-.ContactTeamSlider{
-    margin-top: 100px;
+.ContactTeamSlider {
+  margin-top: 100px;
 }
 
 .team-slider {
-    height: 400px;
+  height: 400px;
 }
 
-.team-slider img{
-    height: 310px;
+.team-slider img {
+  height: 310px;
 }
 
-.footerContact{
-    margin-top: 100px;
+.footerContact {
+  margin-top: 100px;
 }
 
 /*CSS for every section in chronological order in "faq.html"*/
-
 .Faq_sct h1 {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
-.Faq_sct{
-    padding-top: 150px;
+.Faq_sct {
+  padding-top: 150px;
 }
 
 /*CSS for every section in chronological order in "404.html"*/
-
-.errorMain{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
+.errorMain {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.errorMain h1{
-    font-size: 200px; 
+.errorMain h1 {
+  font-size: 200px;
 }
 
-.errorMain a{
-    margin-top: 30px; 
+.errorMain a {
+  margin-top: 30px;
 }
-
+/*# sourceMappingURL=style.css.map */

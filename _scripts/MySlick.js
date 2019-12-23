@@ -2,9 +2,8 @@
 $(document).ready(function(){
     $('.team-slider').slick({
         infinite: true,
-        dots: true,
-        slidesToShow: 5,
+        dots: false,
+        slidesToShow: 3,
         slidesToScroll: 2
-        
     });
   });
